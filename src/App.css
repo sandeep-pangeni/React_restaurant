@@ -1,0 +1,141 @@
+/* All Basics */
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main-content{
+  margin-top:65px;
+}
+/* Top Nav */
+.top-nav{
+  line-height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  padding:0 10px;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.logo{
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.social-media-holder{
+  float: left;
+}
+
+.social-media-holder a{
+  text-decoration: none;
+  color:#ffffff;
+  padding:0 5px;
+}
+.my-contact{
+  float: right;
+  padding:15px 0;
+}
+.my-contact span{
+  display: block;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+/* Main Nav */
+#pic-logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin:0 15px;
+}
+/* Skills */
+.skills{
+  list-style: none;
+  padding:10px 5px;
+}
+.skills li{
+  float: left;
+  width: auto;
+  padding:2px 13px;
+  border: 1px solid #f4f4f4;
+  margin:3px 4px;
+  background-color: #4C4B4B;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.skills li:hover{
+  background-color: #2C3335;
+}
+
+.skill-set{
+  list-style: none;
+  padding:5px 2px;
+}
+.skill-set li{
+  float: left;
+  width: auto;
+  padding:1px 6px;
+  border: 1px solid #f4f4f4;
+  margin:1px 2px;
+  background-color: #4C4B4B;
+  color: #ffffff;
+  border-radius:5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* Footer */
+.footer{
+  background-color: #000000;
+  color: #ffffff;
+  padding:0 10px;
+  line-height: 35px;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0.6;
+}
+.footer:hover{
+  opacity: 1;
+  line-height: 45px;
+}
+.copyright{
+  float: left;
+}
+.info{
+  float: right;
+}
+.info a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Progress Bar */
+.myProgress {
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}  
+.myBar {
+  line-height: 20px;
+  background-color: rgb(10, 233, 10);
+}
+.success{
+  color: green;
+}
+.pending{
+  color: rgb(13, 106, 211);
+}
